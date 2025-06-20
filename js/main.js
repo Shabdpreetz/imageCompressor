@@ -120,6 +120,7 @@ const downloadImage = (evt, fileExtension) => {
     a.href = evt.target.src;
     a.target = '_blank';
     a.click();
+    
 };
 
 
