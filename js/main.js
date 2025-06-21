@@ -112,6 +112,7 @@ const handleImage = (image) => {
         };
     };
     reader.readAsDataURL(image);
+    
 };
 
 const downloadImage = (evt, fileExtension) => {
