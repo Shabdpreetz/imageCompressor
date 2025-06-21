@@ -105,6 +105,7 @@ const handleImage = (image) => {
                 // Compress as JPEG (lossy compression)
                 newUrl = canvas.toDataURL('image/jpeg', 0.8); // 50% quality
                 fileExtension = 'jpeg';
+                
             }
 
             // Display the compressed image
@@ -112,7 +113,7 @@ const handleImage = (image) => {
         };
     };
     reader.readAsDataURL(image);
-    
+
 };
 
 const downloadImage = (evt, fileExtension) => {
