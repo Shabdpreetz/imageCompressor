@@ -112,6 +112,7 @@ const handleImage = (image) => {
             compressedImageContainer.innerHTML = `<img src="${newUrl}" width="150" onclick="downloadImage(event, '${fileExtension}')">`;
         };
     };
+    
     reader.readAsDataURL(image);
 
 };
